@@ -1,159 +1,68 @@
-# Simple Texture Jekyll Theme
+# About Theme
 
-![Gem Version](https://img.shields.io/gem/v/jekyll-theme-simple-texture.svg)
+Theme Name: Ascendant<br>
+Theme URI: https://cpothemes.com/theme/Ascendant<br>
+Version: 0.2<br>
+Tested up to: WP 4.6.2<br>
 
-Simple Texture is a gem-based responsive simple texture styled Jekyll theme for [Jekyll][Jekyll] 3.3 or above,
-which can also be forked as a boilerplate for older versions of Jekyll.
+### Author: CPOThemes<br>
+### Author URI: https://cpothemes.com/<br>
+### License: GNU General Public License v3.0 <br />
+### License URI: http://www.gnu.org/licenses/gpl.html <br />
+-------------------------------------------------------
+#### Ascendant theme, Copyright 2017 cpothemes.com <br />
+#### Ascendant WordPress theme is distributed under the terms of the GNU GPL <br />
+#### Ascendant is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc. <br />
+-------------------------------------------------------
 
-## Demo
+# Credits
+Unless otherwise specified, all the theme files, scripts and images are licensed under GPLv3 license <br />
 
-- Starter-kit demo:
-<https://yizeng.github.io/jekyll-theme-simple-texture/>
-- My own personal blog: <http://yizeng.me/blog>
+Ascendant theme uses:
+* FontAwesome (http://fontawesome.io) licensed under the SIL OFL 1.1 (http://scripts.sil.org/OFL) <br />
+* Bootstrap (http://getbootstrap.com/) licensed under MIT license (https://github.com/twbs/bootstrap/blob/master/LICENSE) <br />
+* Unless otherwise specified, all images are created by CPOthemes <br />
 
-![Screenshot - Home](assets/images/screenshots/home.png)
+# Description
 
-![Screenshot - Blog](assets/images/screenshots/post.png)
+Ascendant is a free multipurpose WordPress theme perfect for agencies and professionals. This theme comes with support for a full homepage slider, feature blocks, portfolios, services, team members, and even testimonials, all thanks to its companion plugin CPO Content Types. Ascendant is one of the best business WordPress themes thanks to its neutral design and extreme flexibility. Moreover, this theme also integrates with popular plugins such as WooCommerce, Yoast SEO, WPML, and Contact Form 7.
 
-## Installation
 
-### As a Jekyll theme gem (Jekyll >= 3.3)
 
-If you are creating a new website or blog,
-please follow the commands below first:
+For questions, comments or bug reports, visit CPOthemes support page (https://cpothemes.com/support).
 
-1. Install Jekyll and [Bunlder][Bunlder]
+# Installation
 
-       gem install jekyll bundler
+You can install the theme through the WordPress installer under "Themes" > "Install themes" by searching for "Ascendant".
 
-2. Create a new Jekyll app
+Alternatively you can download the file, unzip it and move the unzipped contents to the "wp-content/themes" folder of your WordPress installation. You will then be able to activate the theme.
 
-       jekyll new jekyllapp
+Afterwards you can continue theme setup and customization via WordPress Dashboard - Appearance - Theme Options. For detailed theme documentation, please visit https://cpothemes.com/documentation
 
-3. Enter the new directory
+# Theme Features
 
-       cd jekyllapp
+* Bootstrap 3 integration
+* Custom front-page sections: Services, Portfolio, Team & Blog posts
+* Responsive design
+* SEO friendly
+* WordPress Theme Customizer - changes happen in real time
+* Beautiful images used
+* Internationalized & localization
+* Drop-down Menus
+* Cross-browser compatibility
+* Featured slider
+* Font Awesome icons
+* WooCommerce support
 
-4. Then follow the instructions below like existing Jekyll app.
 
-Then for existing Jekyll apps,
+# Documentation
 
-1. Install Bundler if haven't done so.
+Theme documentation is available on https://cpothemes.com/documentation
 
-       gem install bundler
+# Changelog
 
-1. Remove Jekyll auto-generated default pages `404.html`, `about.md` and `index.md` or any your custom layouts or existing theme files.
+## v0.2 
+* Initial release.
 
-1. Remove the existing `Gemfile.lock`.
 
-1. Download the respository [here](https://github.com/yizeng/jekyll-theme-simple-texture/archive/master.zip)
-and locate `starter-kit` folder,
-or download `starter-kit` folder directly [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/yizeng/jekyll-theme-simple-texture/tree/master/starter-kit).
 
-1. Put everything in the `starter-kit` in the root directory,
-i.e. `jekyllapp` in this example.
-
-1. Run `bundle install` to install dependencies.
-
-1. Run Jekyll with `bundle exec jekyll serve`
-
-1. Hack away at <http://localhost:4000>!
-
-### As a fork
-
-1. Fork the repo [here](https://github.com/yizeng/jekyll-theme-simple-texture#fork-destination-box)
-
-2. Clone the repo just forked.
-
-       git clone git@github.com:[YOUR_USERNAME]/jekyll-theme-simple-texture.git
-
-3. Delete `starter-kit` folder and `jekyll-theme-simple-texture.gemspec` file (they're for people installing via gem)
-
-4. Install Bundler if haven't done so.
-
-       gem install bundler
-
-5. Update the `Gemfile` to look like the following:
-
-   ```ruby
-   source "https://rubygems.org"
-
-   gem 'jekyll', '= 3.5.2' # locked in to be consistent GitHub Pages.
-
-   group :jekyll_plugins do
-     gem 'jekyll-feed'
-     gem 'jekyll-redirect-from'
-     gem 'jekyll-seo-tag'
-     gem 'jekyll-sitemap'
-   end
-   ```
-
-6. Run `bundle install` to install dependencies.
-
-7. Run Jekyll with `bundle exec jekyll serve`
-
-8. Hack away at <http://localhost:4000>!
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at <https://github.com/yizeng/jekyll-theme-simple-texture>. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Credits
-
-- [Jekyll][Jekyll]
-  + [jekyll-feed](https://github.com/jekyll/jekyll-feed)
-  + [jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from)
-  + [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
-  + [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)
-  + [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
-  + [Jekyll-Bootstrap](http://jekyllbootstrap.com/)
-  + [theme-the-program](https://github.com/jekyllbootstrap/theme-the-program)
-
-- [Sass](http://sass-lang.com/)
-  + [Normalize.css](https://necolas.github.io/normalize.css/)
-  + [Animate.css](https://daneden.github.io/animate.css/)
-  + [Simple Icons](https://simpleicons.org/)
-  + [Noise Texture Generator](http://www.noisetexturegenerator.com/)
-- JavaScript
-  + [cdnjs](https://cdnjs.com/)
-  + [jQuery](https://jquery.com/)
-  + [fullPage.js](https://alvarotrigo.com/fullPage/)
-  + [pace.js](http://github.hubspot.com/pace/docs/welcome/)
-  + [Modernizr](https://modernizr.com/)
-  + [FancyBox](http://fancybox.net/)
-  + [unveil.js](http://luis-almeida.github.io/unveil/)
-- Fonts
-  + [Font Squirrel](https://www.fontsquirrel.com/)
-  + [Bitter](https://fonts.google.com/specimen/Bitter)
-  + [Junge](https://fonts.google.com/specimen/Junge)
-  + [Ubuntu Condensed](https://fonts.google.com/specimen/Ubuntu+Condensed)
-
-## License
-
-The theme is available as open source under the terms of the
-[MIT License](https://github.com/yizeng/jekyll-theme-simple-texture/blob/master/LICENSE).
-
-    MIT License
-
-    Copyright (c) 2017 Yi Zeng
-
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE.
-
-[Jekyll]: http://jekyllrb.com/
-[Bunlder]: http://bundler.io/
